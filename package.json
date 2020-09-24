@@ -1,8 +1,12 @@
 {
-  "name": "with-react-md-typescript",
+  "name": "react-next-md-typescript-redux-app",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
+  "author": {
+    "name": "vick tahilramani"
+  },
+  "description": "Playing with next js stack",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
