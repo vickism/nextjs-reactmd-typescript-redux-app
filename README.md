@@ -1,4 +1,13 @@
-# ReactMD, Next.js, Typescript and Redux  Example
+# NextJs Example
+
+## The Stack
+- React
+- Next.js
+- ReactMD
+- Typescript
+- Jest
+- Enzyme
+- ts-jest
 
 This example sets up a simple [ReactMD](https://github.com/mlaursen/react-md), Next.js, and Typescript
 app featuring:
