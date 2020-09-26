@@ -7,13 +7,13 @@ type Props = {
 }
 
 const CustomerCard = ({title, subTitle}: Props) : JSX.Element  => {
-  // console.log(`${title} - ${subTitle}`);
+  
 
   return (
     <div>
       <Card>
-        <CardTitle>{title ?? "Title"}</CardTitle>
-        <CardSubtitle>{subTitle ?? "Sub Title"}</CardSubtitle>
+        <CardTitle>{title }</CardTitle>
+        <CardSubtitle>{subTitle}</CardSubtitle>
         </Card>
       </div>
     )

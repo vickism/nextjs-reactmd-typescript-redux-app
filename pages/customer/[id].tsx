@@ -31,7 +31,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({ params }) 
 
 const CustomerDetail = ({data}: Props) => {
   if (!data)
-    return "";
+    return "Loading...";
   return (
     <TextContainer>
       <h2>Customer Detail</h2>

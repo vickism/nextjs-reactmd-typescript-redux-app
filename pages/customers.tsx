@@ -25,6 +25,7 @@ export default class Customers extends React.Component<Props> {
     )
   }
 }
+
 export async function getStaticProps() {
   return {
     props: { customers: customerList }
