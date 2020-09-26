@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Customer Card Component matches snapshot 1`] = `
+<div>
+  <ForwardRef(Card)>
+    <ForwardRef(CardTitle)>
+      Text1
+    </ForwardRef(CardTitle)>
+    <ForwardRef(CardSubtitle)>
+      Text2
+    </ForwardRef(CardSubtitle)>
+  </ForwardRef(Card)>
+</div>
+`;

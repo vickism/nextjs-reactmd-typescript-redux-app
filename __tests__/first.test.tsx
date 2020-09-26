@@ -1,12 +1,4 @@
-// import { mount } from "enzyme";
 import React from "react";
-
-// test("Hello World", () => {
-//   const wrapper = mount(<p>Hello Jest!</p>);
-//   expect(wrapper.text()).toMatch("Hello Jest!");
-// });
-
-// __tests__/hello_world.test.js
 import { shallow } from 'enzyme'
 
 describe('Hello, Enzyme!', () => {
