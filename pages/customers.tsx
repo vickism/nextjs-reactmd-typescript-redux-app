@@ -1,6 +1,6 @@
+import { GetStaticProps } from "next";
 import React, { ReactNode } from "react";
 import CustomerCard from "../components/customerCard";
-import customerList from "../data/customers.json";
 
 type Props = {
   customers: Customer[]
@@ -14,7 +14,6 @@ type Customer = {
 
 export default class Customers extends React.Component<Props> {
   render(): ReactNode {
-    console.log(this.props);
     return (
       <div>
         <h1>Customers</h1>
@@ -26,7 +25,11 @@ export default class Customers extends React.Component<Props> {
   }
 }
 
-export async function getStaticProps() {
+export const getStaticProps: GetStaticProps<Props, any> = async () =>
+{
+  const res = await fetch(process.env.NEXT_PUBLIC_API_BASEURL+ '/api/customer');
+  const customerList: Customer[] = await res.json();
+
   return {
     props: { customers: customerList }
   };
