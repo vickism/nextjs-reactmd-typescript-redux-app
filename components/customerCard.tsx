@@ -7,12 +7,10 @@ type Props = {
 }
 
 const CustomerCard = ({title, subTitle}: Props) : JSX.Element  => {
-  
-
   return (
     <div>
       <Card>
-        <CardTitle>{title }</CardTitle>
+        <CardTitle>{title}</CardTitle>
         <CardSubtitle>{subTitle}</CardSubtitle>
         </Card>
       </div>
